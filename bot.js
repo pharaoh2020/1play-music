@@ -346,7 +346,7 @@ client.login(process.env.BOT_TOKEN);
 
 client.on('ready',  () => {
   console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'); 
-  console.log('by Maestro');
+  console.log('DG');
   console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
   console.log(`Logged in as  * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
   console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
@@ -356,7 +356,7 @@ client.user.setStatus("dnd");
 
 // playing
 client.on('ready', () => {                           
-client.user.setGame(`=invite |By Maestro`,'https://www.twitch.tv/tarikrs');                                                                                                                                                                                                                                                                                                                                                                                                                             client.user.setGame(`=invite / Music`,'https://www.twitch.tv/v5bz');
+client.user.setGame(`1play|MusicDG`,'https://www.twitch.tv/tarikrs');                                                                                                                                                                                                                                                                                                                                                                                                                             client.user.setGame(`1play / Music`,'https://www.twitch.tv/v5bz');
 });
 
 

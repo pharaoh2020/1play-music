@@ -233,7 +233,7 @@ client.on('message', async msg => {
 			return msg.channel.send('Ok, paused');
 		}
 		return msg.channel.send('There is no Queue to Pause!');
-	} else if (command === "resume") {
+	} else if (command === "1p") {
 
 		if (serverQueue && !serverQueue.playing) {
 			serverQueue.playing = true;
@@ -318,13 +318,10 @@ client.on('message', message => {
         .setTitle('**أوامر الميوزك...**')
         .setDescription('**برفكس البوت (!)**')
         .addField('play', 'لتشغيل اغنية')
-        .addField('join', 'دخول رومك الصوتي')
-        .addField('disconnect', 'الخروج من رومك الصوتي')
         .addField('skip', 'تخطي الأغنية')
         .addField('pause', 'ايقاف الاغنية مؤقتا')
         .addField('1p', 'تكملة الاغنية')
         .addField('queue', 'اظهار قائمة التشغيل')
-        .addField('np', 'اظهار الاغنية اللي انت مشغلها حاليا')
         .setFooter('(general_commands) لاظهار الاوامر العامة')
       message.channel.send(helpEmbed);
     }

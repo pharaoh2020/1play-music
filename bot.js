@@ -357,3 +357,6 @@ client.user.setGame(`1play|MusicDG`,'https://www.twitch.tv/tarikrs');           
 });
 
 
+client.on('ready', () => { //code bot not leave room voice //Bot Is Online
+    client.channels.get("527478526178230292").join(); //by :n3k4a 
+    });
